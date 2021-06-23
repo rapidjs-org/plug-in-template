@@ -16,7 +16,7 @@ Providing ...
 ## Installation
 
 ```
-npm install rapidjs--"plugin-name"
+npm install @"scope"/rapidjs--"plugin-name"
 ```
 
 <!-- TODO: State valid installation reference -->
