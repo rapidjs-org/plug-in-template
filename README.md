@@ -7,24 +7,14 @@ It must be clearly recognizable in the overall impression that your plug-in, des
 
 ## Purpose
 
-<!-- TODO: Concisely outline general plug-in purpose -->
-
 Providing ...
-
----
-
-## Installation
+<!-- TODO: Concisely outline general plug-in purpose -->
 
 ```
 npm install @"scope"/rapidjs--"plugin-name"
 ```
-
 <!-- TODO: State valid installation reference -->
 
 ---
 
-## Usage
-
 <!-- TODO: Describe correct plug-in usage in detail -->
-
-### ...
