@@ -1,4 +1,5 @@
-# rapidjs--"plugin-name"
+"plugin-name"
+<!-- TODO: State name -->
 
 <a href="https://rapidjs.org"><img src="https://rapidjs.org/_assets/readme-plugin-badge.svg" height="75"></a>
 <!--
@@ -11,7 +12,7 @@ Providing ...
 <!-- TODO: Concisely outline general plug-in purpose -->
 
 ```
-npm install @"scope"/rapidjs--"plugin-name"
+npm install @"scope"/"plugin-name"
 ```
 <!-- TODO: State valid installation reference -->
 

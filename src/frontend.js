@@ -9,7 +9,7 @@
 /* 
  *Example:
 
-plugin.method = function() {
+PUBLIC.method = function() {
 	return "Hello world";
 };
 

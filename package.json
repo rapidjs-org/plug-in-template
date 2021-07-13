@@ -1,8 +1,8 @@
 {
-  //"name": "rapidjs--'plugin-name'",
+  "name": <plugin-name>,
   "version": "1.0.0",
   "main": "src/app.js",
-  "description": "rapidJS plug-in providing ...",
+  "description": <plugin-description>,
   "scripts": {
     "start": "node ./src/app.js",
     "test": "./node_modules/.bin/eslint --fix src/"
@@ -15,5 +15,5 @@
     "eslint": "^7.21.0"
   },
   "license": "MIT"
-  // ...
+  <additional-fields>
 }

@@ -10,9 +10,9 @@ const config = {};	// TODO: Use or remove accordingly
 // TODO: Optionally use private scope
 
 // Core interface connection
-module.exports = coreInterface => {
+module.exports = rapidJS => {
 	// Initialize feature frontend module
-	coreInterface.initFrontendModule(config);	// TODO: Use frontend module initialization (if using frontend module)
+	rapidJS.initFrontendModule("./frontend", config);	// TODO: Use frontend module initialization (if using frontend module)
 	
 	// TODO: Utilize core interfaces accordingly
 };
