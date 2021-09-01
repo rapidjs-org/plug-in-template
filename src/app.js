@@ -14,5 +14,9 @@ module.exports = rapidJS => {
 	// Initialize feature frontend module
 	rapidJS.initFrontendModule("./frontend", config);	// TODO: Use frontend module initialization (if using frontend module)
 	
-	// TODO: Utilize core interfaces accordingly
+	rapidJS.setEndpoint(body => {
+		// TODO: Define endpoint
+
+        return true;
+    }
 };
