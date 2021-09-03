@@ -18,5 +18,5 @@ module.exports = rapidJS => {
 		// TODO: Define endpoint
 
         return true;
-    }
+    });
 };
