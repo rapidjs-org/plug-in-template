@@ -4,19 +4,13 @@
  * (c) "author / copyright holder"
  */
 
-// Object providing syntactical literals to be used among plug-in files
-const config = {};	// TODO: Use or remove accordingly
 
-// TODO: Optionally use private scope
-
-// Core interface connection
+// Interface
 module.exports = rapidJS => {
-	// Initialize feature frontend module
-	rapidJS.initFrontendModule("./frontend", config);	// TODO: Use frontend module initialization (if using frontend module)
+	// Initialize feature client module
+	$this.clientModule("./client");
 	
-	rapidJS.setEndpoint(body => {
-		// TODO: Define endpoint
-
+	$this.endpoint((body, req) => {
         return true;
     });
 };

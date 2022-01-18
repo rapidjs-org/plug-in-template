@@ -7,35 +7,19 @@
     "extends": "eslint:recommended",
     "globals": {
         "rapidJS": "readonly",
-        "config": "readonly",
-        "PUBLIC": true
+        "$this": "readonly"
     },
     "parserOptions": {
         "ecmaVersion": 12,
         "sourceType": "module"
     },
     "rules": {
-        "indent": [
-            "error",
-            "tab"
-        ],
         "linebreak-style": [
             "error",
             "unix"
         ],
-        "quotes": [
-            "error",
-            "double"
-        ],
-        "semi": [
-            "error",
-            "always"
-        ],
         "no-irregular-whitespace": [
             "off"
-        ],
-        "prefer-arrow-callback": [
-            "error"
         ],
         "no-unused-vars": [
             "error",
